@@ -27,4 +27,6 @@ Vivado Installation Tutorial
 
 路徑 : _"Xilinx/Vivado/2020.2/data/boards/board_files"_
 
+![pynqz2_board_file](images/pynqz2_board_file.png)
+
 執行此動作後須重新開啟 Vivado 才會出現此板子的選項
