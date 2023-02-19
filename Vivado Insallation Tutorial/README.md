@@ -5,13 +5,13 @@ Vivado Installation Tutorial
 
 1. 前往[Xilinx](https://www.xilinx.com/)，註冊一個帳號。
 
-![Create an Account](images/account2.png)
+![Create an Account](images/account.png)
 
 2. 前往[這裡](https://www.xilinx.com/support/download.html)，下載 **Vivado 2020.2**
 
   **註：請安裝在使用者名稱為 "英文" 的電腦**
 
-![Download](images/download2.png)
+![Download](images/download.png)
 
 3. 登入後選擇版本。
 
