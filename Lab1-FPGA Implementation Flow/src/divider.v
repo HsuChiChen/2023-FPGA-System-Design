@@ -12,11 +12,10 @@ module divider(
       clk_div <= 'b0;
     end
     else begin
-
       if (cnt == 62500000 - 1) cnt <= 26'd0;
       else cnt <= cnt + 1;
 
-      if (cnt < 31250000 - 1) clk_div <= 'b0;
+      if (cnt < 31250000) clk_div <= 'b0;
       else clk_div <= 'b1;
     end
   end

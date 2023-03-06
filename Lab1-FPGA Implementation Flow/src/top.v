@@ -20,5 +20,4 @@ module top(
     .clk_div    (clk_div)
     );
     
-    
 endmodule
