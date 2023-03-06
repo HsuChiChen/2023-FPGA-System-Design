@@ -17,7 +17,7 @@ module LED(
     output  reg     [3:0] led
     );
     
-    always@(posedge clk)begin
+    always@(posedge clk or posedge rst)begin
         if(rst) begin
             led <= 4'b0000;
         end
