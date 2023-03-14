@@ -13,7 +13,7 @@ Reference : [Wiki](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%AF%BC%E4%BD%93IP%E
 
 ## Purpose
 
-學習如何使用 GUI 進行模組化設計
+學習如何將自己的設計的電路打包成 IP，並使用 GUI 進行模組化設計
 
 ## 1-1 Package IP - 1
 
