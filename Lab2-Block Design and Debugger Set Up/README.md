@@ -47,7 +47,7 @@ Reference : [Wiki](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%AF%BC%E4%BD%93IP%E
 
 選擇剛剛 create 的 IP 資料夾路徑
 
-![IP_Location](images/IP_Location.jpg)
+![IP_location](images/IP_location.jpg)
 
 Finish 後會打開一個新的 IP project
 
