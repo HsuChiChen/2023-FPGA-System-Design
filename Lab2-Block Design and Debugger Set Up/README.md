@@ -197,7 +197,7 @@ Vivado 有提供 ILA 的 IP core 供使用者進行硬體的 Debug，這裡我�
 ![BD_ILA_debug_probes](images/BD_ILA_debug_probes.jpg)
 
 接著我們要設定 Trigger 條件，假設我們 Trigger 的條件為 `R_out == 1`  
-在Trigger Setup 的視窗點選 `+` 號將 R_out 訊號加入，然後對其做設定
+在 Trigger Setup 的視窗點選 `+` 號將 R_out 訊號加入，然後對其做設定
 
 ![BD_ILA_debug_probes_trigger_setup](images/BD_ILA_debug_probes_trigger_setup.jpg)
 
