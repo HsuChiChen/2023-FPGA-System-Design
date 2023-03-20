@@ -1,5 +1,5 @@
 module	RGB_LED(
-	input			clk,		//100MHz
+	input			clk,
 	input			rst,
 	input	[7:0]	R_time_in,
 	input	[7:0]	G_time_in,
@@ -13,7 +13,7 @@ wire	[7:0]	next_counter_256;
 
 reg		[7:0]	counter_256;
 
-assign			next_counter_256 = (counter_256 == 8'd255)? 8'd0 : counter_256 + 8'd1;	//400KHz
+assign			next_counter_256 = (counter_256 == 8'd255)? 8'd0 : counter_256 + 8'd1;
 
 assign			R_out = (counter_256 < R_time_in)? 1'd1 : 1'd0;
 assign			G_out = (counter_256 < G_time_in)? 1'd1 : 1'd0;
