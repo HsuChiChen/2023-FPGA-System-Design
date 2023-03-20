@@ -92,7 +92,7 @@ Finish 後會打開一個新的 IP project
 
 ![call_rgb_led_IP_OOC_syn](images/call_rgb_led_IP_OOC_syn.jpg)
 
-**依照上述的步驟將 PMW_Decoder IP 也呼叫進來**
+**依照上述的步驟將 PMW_Decoder IP 也呼叫進來，然後在最後一步的 Generate Output Products 選擇 Skip**
 
 可以在 Souce window 裡面打開 IP 的 `.v`檔，查看要在 top design 裡面要 instantiate IP module 的名稱
 
