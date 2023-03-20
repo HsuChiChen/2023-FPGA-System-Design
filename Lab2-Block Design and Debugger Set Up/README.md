@@ -98,7 +98,7 @@ Finish 後會打開一個新的 IP project
 
 ![call_rgb_led_IP_RTL](images/call_rgb_led_IP_RTL.jpg)
 
-接著即可執行 `Synthesis` -> `Implementation` -> `Generate Bitstream`
+接著即可執行 `Synthesis` -> `Implementation` -> `Generate Bitstream`  
 **(直接按下 `Generate Bitstream` 其實也會把前面兩步驟都一起做完)**
 
 然後將 Bitstream file 燒錄進 FPGA。
