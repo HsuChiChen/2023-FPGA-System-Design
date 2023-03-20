@@ -17,7 +17,7 @@ Reference : [Wiki](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%AF%BC%E4%BD%93IP%E
 
 ## 1-1 Package IP - 1
 
-在電腦選擇一個自己想要的路徑(不能有中文)，建立 IP 的資料夾
+在電腦選擇一個自己想要的路徑(不能有中文)，建立 IP 的資料夾  
 **Note : 目的是為了方便管理自己 package 的 IP，資料夾名稱可自己取(必須為英文)。**
 
 這次 Lab 要打包成 IP 的模組有兩個，分別為 `PWM_Decoder`、`RGB_LEDs`
@@ -106,7 +106,7 @@ Finish 後會打開一個新的 IP project
 ------
 # Part 2 - Block Design
 
-先開啟一個 Vivado Project，不需加入任何檔案。
+先開啟一個 Vivado Project，不需加入任何檔案  
 然後依照 **Part1: 1-3** 一開始的步驟，將製作的 IP 加入 IP Repository
 
 選擇左方列 `Create Block Design`
