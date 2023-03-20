@@ -29,7 +29,7 @@ Reference : [Wiki](https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%AF%BC%E4%BD%93IP%E
 開啟一個 Vivado Project，並加入 `/src/RGB_LED.v` , `/xdc/RGB_LED_ooc.xdc`
 接著照著步驟修改 `RGB_LED_ooc.xdc` 的 Properties
 
-> Out-of-context 代表 IP 在接入 Top-level design 之前會事先進行合成
+> Out-of-context 代表 IP 在接入 Top-level design 之前會事先進行合成  
 > 而 Top-level design 會將這個 IP 視為一個 functional black box
 
 ![OOC_and_global_syn](images/OOC_and_global_syn.jpg)
