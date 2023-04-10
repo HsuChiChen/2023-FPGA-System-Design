@@ -1,8 +1,8 @@
 /*
  * led.c
  *
- *  Created on: 2018/8/23
- *      Author: VLSILAB
+ * Created on: 2018/8/23
+ * Author: VLSILAB
  */
 
 
@@ -30,7 +30,7 @@ int main() {
 	}
 	/* Set the direction for all signals as inputs except the LED output */
 	XGpio_SetDataDirection(&LED_Gpio, 1, 0x00);
-	XGpio_SetDataDirection(&SW_Gpio, 1, 0x0f);
+	XGpio_SetDataDirection(&SW_Gpio, 1, 0x03);
 
 	while (1) {
 			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
