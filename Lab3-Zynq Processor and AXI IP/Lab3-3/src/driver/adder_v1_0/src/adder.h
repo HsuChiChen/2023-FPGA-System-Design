@@ -4,8 +4,6 @@
 
 
 /****************** Include Files ********************/
-#include "xil_types.h"
-#include "xstatus.h"
 #include "xil_io.h"
 
 #define ADDER_S00_AXI_SLV_REG0_OFFSET 0
@@ -75,7 +73,7 @@
  * @note    Self test may fail if data memory and device are not on the same bus.
  *
  */
-XStatus ADDER_Reg_SelfTest(void * baseaddr_p);
+// XStatus ADDER_Reg_SelfTest(void * baseaddr_p);
 u32 add(UINTPTR baseAddr, u32 A, u32 B);
 
 #endif // ADDER_H
