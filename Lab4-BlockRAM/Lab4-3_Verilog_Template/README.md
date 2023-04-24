@@ -69,8 +69,14 @@ RAMB36E1_inst (
 |DOBDO<31:0>|Output|32|Port B data output bus/Data output bus addressed by RDADDR. When RAM_MODE="SDP", DOBDO is the logical DO<63:32>.|
 |ENARDEN|Input|1|Port A RAM enable/Read enable.|
 |ENBWREN|Input|1|Port B RAM enable/Write enable.|
-|WEA<3:0>|Input|4|Port A byte-wide write enable. Not used when RAM_MODE="SDP". See User Guide for WEA mapping for different port widths.|
-|WEBWE<7:0>|Input|8|Port B byte-wide write enable/Write enable. See User Guide for WEBWE mapping for different port widths.|
+|REGCEAREGCE|Input|1|Port A output register clock enable input/Output register clock enable input (valid only when DO_REG=1).|
+|REGCEB|Input|1|Port B output register clock enable (valid only when DO_REG=1 and RAM_MODE="TDP").|
+|RSTRAMARSTRAM|Input|1|Synchronous data latch set/reset to value indicated by SRVAL_A. This signal resets port A RAM output when RAM_MODE="TDP" and the entire RAM output when RAM_MODE="SDP"|
+|RSTRAMB|Input|1|Synchronous data latch set/reset to value indicated by SRVAL_B. Not used when RAM_MODE="SDP".|
+|RSTREGARSTREG|Input|1|Synchronous output register set/reset to value indicated by SRVAL_A. This signal resets port A output when RAM_MODE="TDP" and the entire output port when RAM_MODE="SDP".|
+|RSTREGB|Input|1|Synchronous output register set/reset to value indicated by SRVAL_B. Not used when RAM_MODE="SDP".|
+|WEA<3:0>|Input|4|Port A byte-wide write enable. Not used when RAM_MODE="SDP". See User Guide for WEA mapping for different port widths.(p.39)|
+|WEBWE<7:0>|Input|8|Port B byte-wide write enable/Write enable. See User Guide for WEBWE mapping for different port widths.(p.39)|
 
 
 
