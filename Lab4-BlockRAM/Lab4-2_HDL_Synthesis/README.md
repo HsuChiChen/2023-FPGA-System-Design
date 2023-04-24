@@ -39,7 +39,7 @@ Export Hardware 並開啟建立 Vitis Project 後，加入 `src/main.c`
 
 3. Platform/zynq_fsbl/zynq_fsbl_bsp/ps7_cortex_a9_0/libsrc/<CustomIP_name>/src/Makefile
 
-將makefile中的 OUTS = *.o 修改為 OUTS=$(addsuffix .o, $(basename $(wildcard *.c)))
+將makefile中的 `OUTS = *.o` 修改為 `OUTS=$(addsuffix .o, $(basename $(wildcard *.c)))`
 
 接著執行即可看到結果。
 
