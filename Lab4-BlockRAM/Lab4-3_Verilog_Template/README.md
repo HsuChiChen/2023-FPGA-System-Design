@@ -41,6 +41,7 @@ RAMB36E1_inst (
 |INITP_00 to INITP_0F|HEX|256-bit HEX|All Zeros|Allows specification of the initial contents of the 4 Kb parity data memory array.|
 |RAM_MODE|STRING|"TDP", "SDP"|"TDP"|Selects simple dual port (SDP) or true dual port (TDP) mode.|
 |READ_WIDTH_A, READ_WIDTH_B, WRITE_WIDTH_A, WRITE_WIDTH_B|DECIMAL|0, 1, 2, 4, 9, 18, 36, 72|0|Specifies the desired data width for a read/write on port A/B, including parity bits. This value must be 0 if the port is not used. Otherwise, it should be set to the desired port width.|
+|SRVAL_A, SRVAL_B|HEX|36 bit HEX|All zeros|Specifies the output value of the RAM upon assertion of the synchronous reset (RSTREG) signal.|
 |WRITE_MODE_A, WRITE_MODE_B|STRING|"WRITE_FIRST", "NO_CHANGE", "READ_FIRST"|"WRITE_FIRST"|Note 1|
 
 > **Note 1**
