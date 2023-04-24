@@ -34,7 +34,7 @@ RAMB36E1_inst (
 
 |Attribute  |Type   |Allowed Values |Default  |Description  |
 |-----------|-------|---------------|---------|-------------|
-|DOA_REG, DOB_REG|DECIMAL|0, 1|0|Output Registers Options. |
+|DOA_REG, DOB_REG|DECIMAL|0, 1|0|Output Registers Options. A value of 1 enables the output registers to the RAM, which gives you quicker clock-to-out from the RAM at the expense of an added clock cycle of read latency.|
 |INIT_A, INIT_B|HEX|36-bit HEX|All Zeros|Specifies the initial value on the port output after configuration.|
 |INIT_00 to INIT_7F|HEX|256-bit HEX|All Zeros|Allows specification of the initial contents of the 32 Kb data memory array.|
 |INIT_FILE|STRING|String representing file name and location|NONE|File name of file used to specify initial RAM contents.|
