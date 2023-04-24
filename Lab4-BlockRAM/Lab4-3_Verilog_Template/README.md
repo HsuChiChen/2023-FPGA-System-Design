@@ -47,7 +47,7 @@ RAMB36E1_inst (
 > Specifies output behavior of the port being written to.
 > - "WRITE_FIRST" = written value appears on output port of the RAM
 > - "READ_FIRST" = previous RAM contents for that memory location appears on the output port
-> - "NO_CHANGE" = previous value on the output port remains the same
+> - "NO_CHANGE" = previous value on the output port remains the same  
 > When RAM_MODE="SDP", WRITE_MODE can not be set to "NO_CHANGE". For simple dual port implementations, it is generally suggested to set WRITE_MODE to "READ_FIRST" if using the same clock on both ports and to set it to "WRITE_FIRST" if using different clocks.
 > This generally yields an improved collision or address overlap behavior when using the BRAM in this configuration.
 
