@@ -7,7 +7,7 @@
 
 ## Project flow
 
-Lab 3-3 的範例較為簡單，主要會著重在 Verilog Template 的講解。
+Lab 4-3 的範例較為簡單，主要會著重在 Verilog Template 的講解。
 
 只需將 `src/top.v`、`src/shift.v`、`xdc/pynq-z2_v1.0.xdc` 加入 Project，並直接產生 Bitstream 燒錄做觀察即可。
 
