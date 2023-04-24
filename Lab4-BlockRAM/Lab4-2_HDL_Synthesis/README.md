@@ -27,7 +27,7 @@
 
 ![implementation](images/implementation.png)
 
-## Vtis
+## Vitis
 
 Export Hardware 並開啟建立 Vitis Project 後，加入 `src/main.c`
 
