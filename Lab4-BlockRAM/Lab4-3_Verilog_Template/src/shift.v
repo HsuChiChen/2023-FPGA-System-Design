@@ -2,7 +2,7 @@ module shift(
 	input clk,
 	input en_A,
 	input [12:0] addr,
-	output [3:0] data_out
+	output [31:0] data_out
 );
 
 RAMB36E1 #(
