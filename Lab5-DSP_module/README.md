@@ -50,7 +50,7 @@ An embedded computing module on FPGAs, functions include :
 
 - ACOUT, BCOUT, PCOUT, CARRYCASOUT, MULTSIGNOUT are the cascade output data ports to the next DSP48E1 slice.
 
-### Embedeed Functions
+### Embedded Functions
 
 ![Embedded Functions](images/functions.jpg)
 
