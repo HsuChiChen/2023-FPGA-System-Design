@@ -52,6 +52,15 @@ DSP48E1_inst (
 |INMODEREG|DECIMAL|1, 0|1|Selects the number of INMODE input registers.|
 |OPMODEREG |DECIMAL|1, 0|1|Selects the number of OPMODE input registers.|
 
+##### Pattern Detector Attributes  
+|Attribute  |Type   |Allowed Values |Default  |Description  |
+|-----------|-------|---------------|---------|-------------|
+|USE_PATTERN_DETECT|STRING|"NO_PATDET", "PATDET"|"NO_PATDET"|Selects whether the pattern detector and related features are used ("PATDET") or not used ("NO_PATDET").|
+|PATTERN|HEX|48-bit HEX|All zeros |This 48-bit value is used in the pattern detector.|
+|SEL_PATTERN|STRING|"PATTERN", "C"|"PATTERN"|Selects the input source for the pattern field. The input source can either be a 48-bit dynamic C input or a 48-bit static PATTERN attribute field.|
+|MASK|HEX|48-bit HEX|All ones|This 48-bit value is used to mask out certain bits during a pattern detection.|
+|SEL_MASK|STRING|"MASK", "C", "ROUNDING_MODE1", "ROUNDING_MODE2"|"MASK"|Selects the mask to be used for the pattern detector.|
+
 ##### Other Attributes
 
 |Attribute  |Type   |Allowed Values |Default  |Description  |
@@ -62,7 +71,7 @@ DSP48E1_inst (
 |PREG|DECIMAL|1, 0|1|Selects the number of P output registers. The registered outputs will include: `CARRYOUT`, `CARRYCASCOUT`, `MULTSIGNOUT`, `PATTERNB_DETECT`, `PCOUT`.|
 |USE_DPORT|BOOLEAN|FALSE, TRUE|FALSE|Determines whether the pre-adder and the D Port are used or not.|
 |USE_MULT|STRING|"MULTIPLY", "DYNAMIC", "NONE"|"MULTIPLY"|Selects usage of the multiplier. Set to "NONE" to save power when using only the Adder/Logic Unit. The "DYNAMIC" setting indicates that the user is switching between A*B and A:B operations on the fly and therefore needs to get the worst-case timing of the two paths.|
-|USE_PATTERN_DETECT|STRING|"NO_PATDET", "PATDET"|"NO_PATDET"|Selects whether the pattern detector and related features are used ("PATDET") or not used ("NO_PATDET").|
+
 
 #### Port Descriptions
 
