@@ -23,7 +23,7 @@ int main(){
 		scanf("%d", &B);
 		printf("%d\r\n", B);
 
-		C = (B << 16) + A;
+		C = (B << 16) + (A & 0x0000ffff);
 
 		//printf("C = %x\r\n", C);
 
