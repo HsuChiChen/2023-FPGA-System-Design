@@ -143,12 +143,16 @@ DSP48E1_inst (
 |1110|TRUE|D|
 |1111|TRUE|D|
 
+![A_D_input_ports](images/A_D_input_ports.jpg)
+
 #### INMODE[4] Encoding (when BREG = 1 or 2)
 
 |INMODE[4]|Multiplier B Port|
 |:---:|:---:|
 |0|B2|
 |1|B1|
+
+![B_input_ports](images/B_input_ports.jpg)
 
 ## OPMODE<6:0> : Select the outputs of the XYZ multiplexer
 
