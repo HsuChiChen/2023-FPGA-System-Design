@@ -58,7 +58,7 @@ DSP48E1_inst (
 |USE_PATTERN_DETECT|STRING|"NO_PATDET", "PATDET"|"NO_PATDET"|Selects whether the pattern detector and related features are used ("PATDET") or not used ("NO_PATDET").|
 |PATTERN|HEX|48-bit HEX|All zeros |This 48-bit value is used in the pattern detector.|
 |SEL_PATTERN|STRING|"PATTERN", "C"|"PATTERN"|Selects the input source for the pattern field. The input source can either be a 48-bit dynamic C input or a 48-bit static PATTERN attribute field.|
-|MASK|HEX|48-bit HEX|All ones|This 48-bit value is used to mask out certain bits during a pattern detection.|
+|MASK|HEX|48-bit HEX|All ones|This 48-bit value is used to mask out certain bits during a pattern detection. `Note1`|
 |SEL_MASK|STRING|"MASK", "C", "ROUNDING_MODE1", "ROUNDING_MODE2"|"MASK"|Selects the mask to be used for the pattern detector.|
 
 > Note1 :  
