@@ -114,7 +114,7 @@ DSP48E1_inst (
 
 # Control Signals
 
-## INMODE<4:0> : Select the inputs of the 25x12 multiplier
+## INMODE<4:0> : Select the inputs of the 25x18 multiplier
 
 #### INMODE[3:0] Functions (when AREG = 1 or 2)
 
