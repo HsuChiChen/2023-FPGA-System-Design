@@ -5,6 +5,8 @@ FPGA Design Lab5-2 - How to Use DSP Module with Verilog Template
 
 學習使用 Verilog Template 來呼叫 DSP48E1 模組。
 
+![DSP48E1](images/DSP48E1.jpg)
+
 # Verilog Template
 
 和 `RAMB36E1` 一樣，分為兩個部分 : **Available Attributes** 、 **Port Descriptions**
