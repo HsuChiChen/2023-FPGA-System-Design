@@ -46,7 +46,7 @@ An embedded computing module on FPGAs, functions include :
 
 ![Output Ports](images/output.jpg)
 
-- P, CARRYOUT, PATTERNDETECT, PATTERBDETECT are the direct output data ports.
+- P, CARRYOUT, PATTERNDETECT, PATTERNBDETECT are the direct output data ports.
 
 - ACOUT, BCOUT, PCOUT, CARRYCASOUT, MULTSIGNOUT are the cascade output data ports to the next DSP48E1 slice.
 
