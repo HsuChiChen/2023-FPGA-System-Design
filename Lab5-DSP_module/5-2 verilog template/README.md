@@ -254,7 +254,7 @@ A Simple Software-Harware Co-Design Example
 
 ![Address Editor](images/addr_editor.jpg)
 
-`Add Module` -> 加入 `mem1024x32.v` 並與 BRAM Controller 連接如下圖
+`右鍵` -> `Add Module` -> 加入 `mem1024x32.v` 並與 BRAM Controller 連接如下圖
 
 ![BD2](images/bd2.jpg)
 
