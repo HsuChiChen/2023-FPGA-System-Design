@@ -35,9 +35,9 @@ DSP48E1_inst (
 |BREG|DECIMAL|1, 0, 2|1|Selects the number of B input registers.|
 |BCASCREG|DECIMAL|1, 0, 2|1|Selects the number of B input registers on the B cascade path, BCOUT. This attribute must be equal to or one less than the BREG value.|
 |CREG |DECIMAL|1, 0|1|Selects the number of C input registers. |
-|CARRYINREG|DECIMAL|1, 0|1|Selects the number of CARRYIN input registers.|
 |DREG|DECIMAL|1, 0|1|Selects the number of D input registers.|
 |ADREG|DECIMAL|1, 0|1|Selects the number of AD pipeline registers.|
+|CARRYINREG|DECIMAL|1, 0|1|Selects the number of CARRYIN input registers.|
 
 - A(B)REG=0: A(B)CASCREG must be 0.
 - A(B)REG=1: A(B)CASCREG must be 1.
