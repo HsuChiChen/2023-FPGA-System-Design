@@ -62,7 +62,7 @@ DSP48E1_inst (
 |PREG|DECIMAL|1, 0|1|Selects the number of P output registers. The registered outputs will include: `CARRYOUT`, `CARRYCASCOUT`, `MULTSIGNOUT`, `PATTERNB_DETECT`, `PCOUT`.|
 |USE_DPORT|BOOLEAN|FALSE, TRUE|FALSE|Determines whether the pre-adder and the D Port are used or not.|
 |USE_MULT|STRING|"MULTIPLY", "DYNAMIC", "NONE"|"MULTIPLY"|Selects usage of the multiplier. Set to "NONE" to save power when using only the Adder/Logic Unit. The "DYNAMIC" setting indicates that the user is switching between A*B and A:B operations on the fly and therefore needs to get the worst-case timing of the two paths.|
-|USE_PATTERN_DETECT|STRING|"NO_PATDET", "PATDET"|"NO_PATDET"|Selects whether the pattern detector and related features are used or not used.|
+|USE_PATTERN_DETECT|STRING|"NO_PATDET", "PATDET"|"NO_PATDET"|Selects whether the pattern detector and related features are used ("PATDET") or not used ("NO_PATDET").|
 
 #### Port Descriptions
 
