@@ -101,6 +101,8 @@ DSP48E1_inst (
 |INMODE<4:0>|Input|5|These five control bits select the functionality of the preadder, the A, B, and D inputs, and the input registers. These bits should be tied to all zeros if not used.|
 |OPMODE<6:0>|Input|7|Controls the input to the X, Y, and Z multiplexers in the DSP48E1 slice dictating the operation or function of the DSP slice.|
 |P<47:0>|Output|48|Data output from second stage adder/subtracter or logic function.|
+|PATTERNBDETECT|Output|1|Active-High match indicator between P[47:0] and the pattern bar.|
+|PATTERNDETECT|Output|1|Active-High Match indicator between P[47:0] and the pattern gated by the MASK.|
 |PCIN<47:0>|Input|48|Cascaded data input from PCOUT of previous DSP48E1 slice to adder. If used, connect to PCOUT of upstream cascaded DSP slice. If not used, tie port to all zeros.|
 |PCOUT<47:0> |Output| 48 |Cascaded data output to PCIN of next DSP48E1 slice. If used, connect to PCIN of downstream cascaded DSP slice. If not used, leave unconnected.|
 |RST~|Input|1|Active-High synchronous reset for ~ pipeline registers. Tie to logic zero if not used.|
