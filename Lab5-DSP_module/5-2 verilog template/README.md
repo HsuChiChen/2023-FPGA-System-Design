@@ -176,7 +176,7 @@ DSP48E1_inst (
 
 #### OPMODE Control Bits Select Z Multiplexer Outputs
 
-|Z / OPMODE[6:4] | Y / OPMODE[3:2] | X / OPMODE[1:0] | X Multiplexer Output | Notes |
+|Z / OPMODE[6:4] | Y / OPMODE[3:2] | X / OPMODE[1:0] | Z Multiplexer Output | Notes |
 |:---:|:---:|:---:|:---:|:---|
 |000|xx|xx|0|Default|
 |001|xx|xx|PCIN||
