@@ -23,7 +23,7 @@ FPGA Design Lab6 - Python + Zynq = PYNQ
     > 若你的電腦是連接路由器有現成的區域網路可以使用，則將 FPGA 與路由器連接，待會跳到 Step2 ver2
 
 6. 開機。  
-    開啟電源後先不要動作，等待板子的 RGB LED 閃彩燈後四顆 LED 全亮紅燈才代表完全開機完成。
+    開啟電源後先不要動作，等待板子的 RGB LED 閃彩燈後四顆 LED 全亮紅燈/綠燈才代表完全開機完成。
 
 7. 打開 PuTTY 連結FPGA即可看到 Linux 系統的 terminal 的畫面。
 
